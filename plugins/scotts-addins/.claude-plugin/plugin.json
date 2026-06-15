@@ -1,0 +1,13 @@
+{
+  "name": "scotts-addins",
+  "version": "0.1.0",
+  "description": "Build Excel workbooks driven by Scott's Add-ins =SCOTT.* formulas, pulling live data from Xero or QuickBooks. Includes a workbook builder skill (P&L, Balance Sheet, Budget vs. Actual, custom reports) and a formula-syntax helper skill.",
+  "author": {
+    "name": "Scott Miller",
+    "email": "scott@scottsaddins.com",
+    "url": "https://scottsaddins.com"
+  },
+  "homepage": "https://scottsaddins.com",
+  "license": "MIT",
+  "keywords": ["xero", "quickbooks", "excel", "accounting", "finance", "reporting", "scotts-addins", "udf", "office-add-in"]
+}

@@ -1,0 +1,26 @@
+{
+  "skill_name": "scott-workbook-builder",
+  "evals": [
+    {
+      "id": 0,
+      "name": "monthly-pnl-default-period",
+      "prompt": "Build me a P&L for this month using Scott's add-in. Use Kojo as usual. Include prior year same month and YTD columns.",
+      "expected_output": "An .xlsx workbook with an Inputs sheet (org 395536, current month period dates, PY same month, YTD) and a P&L sheet with revenue/COGS/expenses/net income, three amount columns, fully formatted.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "balance-sheet-with-py-compare",
+      "prompt": "I need a balance sheet workbook as of 3/31/2026 with a prior year comparison. Use Scott's functions please. Org is Kojo.",
+      "expected_output": "An .xlsx workbook with an Inputs sheet (org 395536, AsOf = 3/31/2026, PYAsOf = 3/31/2025) and a Balance Sheet with assets/liabilities/equity, two columns (current vs PY), proper sign conventions, balance check row.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "budget-vs-actual-q1",
+      "prompt": "Can you put together a budget vs. actual file for Q1 2026 using Scott's formulas? Budget version is 'Approved'. Kojo's org.",
+      "expected_output": "An .xlsx workbook with an Inputs sheet (org 395536, period 1/1/2026 - 3/31/2026, BudgetVersion = 'Approved') and a Budget vs Actual sheet with Actual/Budget/Variance$/Variance% columns, with the variance sign convention noted in handoff.",
+      "files": []
+    }
+  ]
+}
