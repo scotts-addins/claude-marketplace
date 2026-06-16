@@ -10,7 +10,7 @@
       "displayName": "Scott's Add-ins",
       "source": "./plugins/scotts-addins",
       "description": "Build Excel workbooks driven by Scott's Add-ins =SCOTT.* formulas, pulling live data from Xero or QuickBooks. Includes a workbook builder skill (P&L, Balance Sheet, Budget vs. Actual, custom reports) and a formula-syntax helper skill.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Scott Miller",
         "email": "scott@scottsaddins.com"
